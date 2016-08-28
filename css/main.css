@@ -85,7 +85,7 @@ nav h1 {
 
 nav ul {
 	float: right;
-	margin: 30px 0 0 0;
+	margin: 26px 0 0 0;
 
 }
 
@@ -94,7 +94,21 @@ ul li {
 	margin: 0 25px 0 0;
 }
 
-.intro a {
+nav li a {
+	color: #3A464B;
+}
+
+nav h2 {
+	padding: 5px;
+	border-radius: 3px;	
+}
+
+ul li a h2:hover {
+	background-color: #3A464B;
+	color: #A4D0D9;
+}
+
+.intro a { h2
 	color: #3A464B;
 }
 .introTitle {
@@ -146,6 +160,21 @@ ul li {
 	color: white;
 }
 
+.recentWork a h2 {
+	padding: 5px;
+	border-radius: 3px;
+}
+
+.recentWork a h2:hover {
+	background-color: white;
+	color:#97D0A3;
+}
+
+.recentWork button {
+	background-color: white;
+	color: #3A464B;
+}
+
 .work {
 	padding: 0;
 }
@@ -163,7 +192,7 @@ ul li {
 /*LAYER*/
 
 .layer {
-	background-color: #FEFEFE;
+	background-color: #F0F0F0;
 }
 
 .layer img {
@@ -184,6 +213,14 @@ ul li {
 .layer button {
 	margin: 0;
 	color: white;
+}
+
+.layerOne {
+	background-color: #97D0A3;
+}
+
+.layerTwo {
+	background-color: #A4D0D9;
 }
 
 /*TEAM*/
@@ -260,12 +297,18 @@ ul li {
 	width: auto;
 }
 
+.recentPosts button {
+	background-color: white;
+	color: #B3D3DE;
+}
+/*CONTACT*/
+
 .contact {
 	background-color: #3C3C3C;
 }
 
 .contact p {
-	margin: 0 auto 0;
+	margin: 15px auto 10px;
 	padding-bottom: 40px;
 }
 
@@ -275,7 +318,7 @@ ul li {
 
 form {
 	margin: 0 auto;
-	width: 50%;
+	width: 40%;
 }
 
 input, textarea {
@@ -284,6 +327,6 @@ input, textarea {
 	border-radius: 5px;
 	line-height: 16px;
 	padding: 10px;
-	margin: 0 0 8px;
+	margin: 0 0 12px;
 	width: 100%
 }	
